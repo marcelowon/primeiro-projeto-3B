@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&#39;);
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap&#39;);
 
 :root {
     --laranja-claro: #FF862A;
@@ -27,7 +27,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('4965007.jpg');
+    background-image: url('img/4965007.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -78,8 +78,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('flor.png') top right no-repeat,
-        url('flor-esquerda.png') bottom left no-repeat;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -107,12 +107,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('4965007.jpg');
+    background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -169,10 +169,3 @@ body.alto-contraste button {
     background-color: #FFF !important;
     color: #000 !important;
 }
-
-4º passo: Inserir no JAVA
-const contrasteBotao = document.getElementById('contraste');
-
-contrasteBotao.addEventListener('click', function () {
-    document.body.classList.toggle('alto-contraste');
-});
